@@ -13,6 +13,24 @@ h6 {
   color: #1e1e1e;
 }
 
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
 a {
   color: #1e1e1e;
   transition: all 0.5s ease-in-out;
