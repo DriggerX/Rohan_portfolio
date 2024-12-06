@@ -4,37 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Portfolio</title>
-    <link rel="stylesheet" href="css/style.css"> <!-- Link to your existing stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navbar -->
-    <header>
+    <header class="navbar-b navbar-trans">
         <nav>
-            <a href="main.html">Back to Main</a>
+            <ul>
+                <li><a href="main.html">Back to Main</a></li>
+            </ul>
         </nav>
     </header>
 
     <!-- Portfolio Section -->
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio-mf sect-pt4">
         <div class="container">
-            <h1>Design Portfolio</h1>
-            <p>Here are some of my design works. Click on the images or titles to explore more details.</p>
-
-            <div class="portfolio-grid">
-                <!-- Example Item -->
-                <div class="portfolio-item">
-                    <img src="img/design1.jpg" alt="Design 1">
-                    <h3><a href="https://link-to-design1.com" target="_blank">Design Title 1</a></h3>
-                    <p>Description of Design 1, including tools and objectives used in the project.</p>
+            <div class="title-box text-center">
+                <h3 class="title-a">My Design Portfolio</h3>
+                <p class="subtitle-a">Explore my creative works below</p>
+                <div class="line-mf"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <div class="work-img">
+                            <img src="img/design1.jpg" alt="Design 1" class="img-fluid">
+                        </div>
+                        <div class="work-content">
+                            <h2 class="w-title">Project Title 1</h2>
+                            <p class="w-more">A brief description of this design project.</p>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="portfolio-item">
-                    <img src="img/design2.jpg" alt="Design 2">
-                    <h3><a href="https://link-to-design2.com" target="_blank">Design Title 2</a></h3>
-                    <p>Description of Design 2, showcasing creativity and methods applied.</p>
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <div class="work-img">
+                            <img src="img/design2.jpg" alt="Design 2" class="img-fluid">
+                        </div>
+                        <div class="work-content">
+                            <h2 class="w-title">Project Title 2</h2>
+                            <p class="w-more">Another example of my creative work.</p>
+                        </div>
+                    </div>
                 </div>
-
-                <!-- Add More Items as Needed -->
+                <!-- Add more items as needed -->
             </div>
         </div>
     </section>
